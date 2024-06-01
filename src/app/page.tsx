@@ -1,12 +1,12 @@
 import Header from '@/components/Header';
-import SearchBar from '@/components/SearchBar';
+import MovieSearch from '@/components/MovieSearch';
 
 export default function Home() {
     return (
         <div>
             <Header />
             <main className="p-4">
-                <SearchBar />
+                <MovieSearch />
             </main>
         </div>
     );
