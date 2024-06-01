@@ -13,7 +13,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ movieTitle, setMovieTitle, handle
         <div className="text-center mt-10">
             <h2 className="text-4xl font-abril">Is this movie family-friendly?</h2>
             <p className="mt-4 text-xl text-gray-600 font-lato">
-                Enter a movie title to see if it's appropriate for your family
+                Enter a movie title to see if it&apos;s appropriate for your family
             </p>
             <div className="flex justify-center mt-6">
                 <input
